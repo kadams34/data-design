@@ -1,5 +1,22 @@
 body {
-    font-family: "Comic Sans MS", sans-serif;
-    display: flex;
-    color: lime;
+    font-family: AppleGothic, sans-serif;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav a {
+    margin: 0 1em;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
