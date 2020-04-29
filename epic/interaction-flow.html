@@ -6,6 +6,10 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+
+    <!-- Navigation Bar -->
+
+
         <div class="nav">
             <a href="index.html">Home</a>
             <a href="persona.html">Persona</a>
@@ -13,8 +17,42 @@
             <a href="interaction-flow.html">Interaction Flow</a>
             <a href="conceptual-model.html">Conceptual Model</a>
         </div>
+
+    <!-- Main Content -->
+
+
         <div>
-            <h1>Interaction Flow</h1>
+            <h1>Use Case/Interaction Flow</h1>
+        </div>
+        <div class="use-case-main">
+            <h2>Use Case</h2>
+            <p>It's that time of year! Will is making his annual trip to Denver to visit friends and family, but mainly to catch a Broncos
+                game! A long time friend of Will's has access to season tickets and always has an extra for him every year. Unfortunately
+                this year, Will's friend had to secure Will's ticket for an unexpected family visitor. Will's friend suggested using
+                <a href="http://stubhub.com">stubhub.com</a> as it's worked well for him in the past. Will sure as heck didn't make the
+                drive to Colorado just to watch it on TV. <a href="http://www.stubhub.com">Stubhub</a> it is!</p>
+        </div>
+        <div class="interaction-flow-main">
+            <h2>Interaction Flow</h2>
+            <p><strong>Precondition:</strong> Will writes "stubhub.com" into his mobile Safari browser</p>
+            <p><strong>Postcondition:</strong> Will receives tickets in the mobile app</p>
+            <div class="interaction-flow-list">
+                <ul>
+                    <li>Will Types "Denver Broncos" into top search bar and clicks "go"</li>
+                    <li>Website presents list of upcoming events with keywords "Denver Broncos" starting with the next soonest</li>
+                    <li>Will clicks on the game that begins the next day</li>
+                    <li>Website asks how many tickets</li>
+                    <li>Will selects one</li>
+                    <li>Site presents interactive seating chart with lists of tickets available in each section sorted by either lowest price or best value</li>
+                    <li>Will selects best ticket in his price range</li>
+                    <li>Site redirects to secure checkout page</li>
+                    <li>Will enters CC info and selects "Automatic Electronic Delivery" for shipment option and clicks "Confirm Payment"</li>
+                    <li>Website redirects to confirmation page with confirmation Number</li>
+                    <li>Will's email immediately receives message with link to electronic tickets</li>
+                    <li>Will high-fives friend and rejoices in how easy the interaction was</li>
+                    <li>Will begins to apply rubber horse head and blue and orange body paint</li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>

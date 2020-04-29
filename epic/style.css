@@ -1,6 +1,14 @@
+/**
+*Global Font Rule for project
+**/
+
 body {
     font-family: AppleGothic, sans-serif;
 }
+
+/**
+*Nav Styling
+ **/
 
 .nav {
     text-align: right;
@@ -10,16 +18,42 @@ body {
     margin: 0 1em;
 }
 
+/**
+*Page heading
+**/
+
 h1 {
     text-align: center;
     margin-top: 2em;
 }
 
-.main img {
+/*
+*Index styling
+ */
+
+.index-main {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+/**
+*Persona styling
+**/
+
+.persona-main img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+.persona-main li {
+    margin: .5em 0;
+}
+
+/*
+*User Story styling
+ */
 
 .user-main {
     font-size: 1.5em;
@@ -28,4 +62,12 @@ h1 {
 
 p span {
     color: orange;
+}
+
+/*
+*Interaction Flow styling
+ */
+
+.interaction-flow-main li {
+    margin: .5em 0;
 }
