@@ -25,6 +25,39 @@
             <h1>Conceptual Model</h1>
         </div>
         <div>
+            <h2>Entities and Attributes</h2>
+            <h3>user</h3>
+            <ul>
+                <li>userId</li>
+                <li>userActivationToken</li>
+                <li>userEmail</li>
+                <li>userHash</li>
+                <li>userName</li>
+                <li>userAddress</li>
+            </ul>
+            <h3>ticket</h3>
+            <ul>
+                <li>ticketId</li>
+                <li>ticketEventId</li>
+                <li>ticketClaimed</li>
+                <li>ticketPrice</li>
+                <li>ticketSeat</li>
+            </ul>
+            <h3>event</h3>
+            <ul>
+                <li>eventId</li>
+                <li>eventDate</li>
+                <li>eventLocation</li>
+                <li>eventType</li>
+            </ul>
+            <h3>userTicket</h3>
+            <ul>
+                <li>userTicketUserId</li>
+                <li>userTicketTicketId</li>
+                <li>userTicketDateTime</li>
+            </ul>
+        </div>
+        <div>
             <img src="erd-data-design.png" alt="Entity Relationship Diagram">
         </div>
     </body>

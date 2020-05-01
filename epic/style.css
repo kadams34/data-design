@@ -76,8 +76,10 @@ p span {
 *Conceptual Model styling
  */
 
-img[src="erd.png"] {
+img[src="erd-data-design.png"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+
