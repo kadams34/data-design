@@ -16,7 +16,7 @@ CREATE TABLE user(
 
 CREATE TABLE event(
     eventId binary(16) not null,
-    eventDate datetime(3) not null,
+    eventDate datetime(6) not null,
     eventLocation varchar(256) not null,
     eventType varchar(64) not null,
     primary key(eventId)
@@ -44,3 +44,6 @@ CREATE TABLE userTicket(
     foreign key(userTicketTicketId) references ticket(ticketId),
     primary key(userTicketUserId, userTicketTicketId)
 );
+
+
+
